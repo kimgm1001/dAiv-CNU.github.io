@@ -154,7 +154,7 @@ def adjust_selector_visibility(selected_year, data_type):
     for el in selectors:
         if el.id == f"{data_type}_selector_all":
             continue  # skip the "all" selector
-        el.classList.remove('selector-active')
+        el.classList.remove('active')
         if el.classList.contains('visible'):
             if not is_flipped:
                 de_selection_list.append(el)
@@ -164,7 +164,7 @@ def adjust_selector_visibility(selected_year, data_type):
     if not is_flipped:
         selected_selector.classList.remove('d-none')
     selected_selector.classList.add('visible')
-    selected_selector.classList.add('selector-active')
+    selected_selector.classList.add('active')
     selection_list = []
     if selected_idx == 0:
         selection_list = [selectors[1], selectors[2]]
@@ -187,7 +187,7 @@ def register_selector(container, year, data_type, visible, enabled, active):
     selector.href = f"#{data_type}"
     selector.className = "selector btn rounded-pill scrollto"
     if active:
-        selector.classList.add('selector-active')
+        selector.classList.add('active')
     if visible:
         selector.classList.add('visible')
     else:

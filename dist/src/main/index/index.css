@@ -245,14 +245,19 @@
     border-color: #F19F4DE0;
 }
 
-#team .selector {
-    color: rgba(54, 57, 61, 0.8);
-    border-color: rgba(54, 57, 61, 0.05);
+#team .selector-controller.flipped {
+    color: #fff;
+    background: #F19F4D;
 }
 
-#team .selector-active {
-    color: rgba(54, 57, 61, 0.8);
-    border-color: rgba(54, 57, 61, 0.8);
+#team .selector {
+    color: rgba(54, 57, 61, 0.75);
+    border-color: rgba(54, 57, 61, 0.45);
+}
+
+#team .selector.active {
+    color: #fff;
+    background: rgba(54, 57, 61, 0.8);
 }
 
 #team .member {
@@ -364,19 +369,14 @@
     margin: auto;
 }
 
-#programs .selector,
-#programs .selector-controller {
-    margin: 0 8px 8px;
-    padding: 6px 12px;
-}
-
 #programs .selector-container {
     text-align: right;
 }
 
-#programs .selector {
-    color: rgba(54, 57, 61, 0.8);
-    border-color: rgba(54, 57, 61, 0.05);
+#programs .selector,
+#programs .selector-controller {
+    margin: 0 8px 8px;
+    padding: 6px 12px;
 }
 
 #programs .selector-controller {
@@ -384,9 +384,19 @@
     border-color: #4D8B75E0;
 }
 
-#programs .selector-active {
-    color: rgba(54, 57, 61, 0.8);
-    border-color: rgba(54, 57, 61, 0.8);
+#programs .selector-controller.flipped {
+    color: #fff;
+    background: #4D8B75;
+}
+
+#programs .selector {
+    color: rgba(54, 57, 61, 0.75);
+    border-color: rgba(54, 57, 61, 0.45);
+}
+
+#programs .selector.active {
+    color: #fff;
+    background: rgba(54, 57, 61, 0.8);
 }
 
 #programs .program-type-list {
