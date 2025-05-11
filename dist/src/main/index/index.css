@@ -234,10 +234,24 @@
     text-align: center;
 }
 
-#team .selector {
+#team .selector,
+#team .selector-controller {
     margin: 0 8px 8px;
     padding: 6px 12px;
+}
+
+#team .selector-controller {
     color: #fff;
+}
+
+#team .selector {
+    color: rgba(54, 57, 61, 0.8);
+    border-color: rgba(54, 57, 61, 0.05);
+}
+
+#team .selector-active {
+    color: rgba(54, 57, 61, 0.8);
+    border-color: rgba(54, 57, 61, 0.8);
 }
 
 #team .member {
@@ -353,10 +367,20 @@
     text-align: center;
 }
 
-#programs .selector {
+#programs .selector,
+#programs .selector-controller {
     margin: 0 8px 8px;
     padding: 6px 12px;
-    color: #fff;
+}
+
+#programs .selector {
+    color: rgba(54, 57, 61, 0.8);
+    border-color: rgba(54, 57, 61, 0.05);
+}
+
+#programs .selector-active {
+    color: rgba(54, 57, 61, 0.8);
+    border-color: rgba(54, 57, 61, 0.8);
 }
 
 #programs .program-type-list {
