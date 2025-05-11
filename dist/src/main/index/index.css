@@ -231,7 +231,7 @@
 }
 
 #team .selector-container {
-    text-align: center;
+    text-align: right;
 }
 
 #team .selector,
@@ -241,7 +241,8 @@
 }
 
 #team .selector-controller {
-    color: #fff;
+    color: #F19F4D;
+    border-color: #F19F4DE0;
 }
 
 #team .selector {
@@ -363,19 +364,24 @@
     margin: auto;
 }
 
-#programs .selector-container {
-    text-align: center;
-}
-
 #programs .selector,
 #programs .selector-controller {
     margin: 0 8px 8px;
     padding: 6px 12px;
 }
 
+#programs .selector-container {
+    text-align: right;
+}
+
 #programs .selector {
     color: rgba(54, 57, 61, 0.8);
     border-color: rgba(54, 57, 61, 0.05);
+}
+
+#programs .selector-controller {
+    color: #4D8B75;
+    border-color: #4D8B75E0;
 }
 
 #programs .selector-active {
